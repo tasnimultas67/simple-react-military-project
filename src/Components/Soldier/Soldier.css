@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+
+.soldier-img{
+    max-width: 60%;
+    max-height: 30%;
+}
+.soldier-card-container{
+border: 1px solid lightgray;
+margin: 10px;
+background-color: white;
+max-height: 31.5rem;
+line-height: 0.5cm;
+padding: 10px 5px 10px 5px;
+text-align: center;
+border-radius: 5px;
+font-family: 'Roboto Condensed', sans-serif;
+transition: 0.5s;
+}
+.soldier-card-container:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.common-btn{
+    width: 100%;
+    padding: 13px 20px;
+    color: #F1C40F;
+    background-color: #283747;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.5s;
+
+}
+.common-btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.weight-500{
+    font-weight: 500;
+}

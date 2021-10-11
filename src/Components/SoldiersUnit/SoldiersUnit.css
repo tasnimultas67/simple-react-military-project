@@ -1,0 +1,16 @@
+.found-items{
+    text-align: center;
+    font-size: 1rem;
+}
+.soldier-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.soldiers-card-container{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.soldiers-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
